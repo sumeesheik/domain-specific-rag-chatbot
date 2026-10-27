@@ -1,0 +1,20 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Streamlit and local generated data
+.streamlit/
+vector_store/saved_index/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
